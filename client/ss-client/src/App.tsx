@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 function App() {
-  const endpoint = "http://165.227.125.165/ss/api/graphql"
+  const endpoint = "https://165.227.125.165/ss/api/graphql"
   const query = gql`
       query{
           SurfSpots {
