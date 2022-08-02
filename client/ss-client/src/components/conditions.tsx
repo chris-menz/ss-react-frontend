@@ -61,7 +61,7 @@ export default function Conditions(props: Props){
         sunset: string
     }
 
-    const endpoint = "https://165.227.125.165/ss/api/graphql"
+    const endpoint = "https://cmsurfapp.com/ss/api/graphql"
 
     const getSpotInfoQuery = gql`
         query{
